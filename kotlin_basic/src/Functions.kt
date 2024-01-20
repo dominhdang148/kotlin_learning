@@ -55,5 +55,4 @@ fun exercise8(number: Int): Int {
     return number * exercise8(number - 1)
 }
 // 9. Write a Kotlin program to check if a given year is a leap year
-
 val exercise9: (Int) -> Boolean = {year -> (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) }

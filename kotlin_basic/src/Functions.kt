@@ -31,3 +31,11 @@ fun exercise5(x: Int, y: Int) {
     println("$x * $y = ${x * y}")
     println(if (y != 0) "$x / $y = ${x / y}" else "Cannot divide by zero")
 }
+
+// 6. Write a program to check if a given number is even or odd (lambda function)
+val exercise6: (Int)-> Boolean = {(it and 1) == 0}
+// Similar with:
+fun exercise6(number: Int):Boolean{
+    return (number and 1)==0
+}
+

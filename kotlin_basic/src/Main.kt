@@ -1,3 +1,3 @@
 fun main() {
-    exercise4()
+    exercise5(x=3, y=0)
 }

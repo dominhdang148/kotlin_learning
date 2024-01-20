@@ -41,10 +41,19 @@ fun exercise6(number: Int): Boolean {
 }
 
 // 7. Write a Kotlin program to find the maximum and minimum of three number
-
 fun exercise7(a: Int, b: Int, c: Int) {
     val max = maxOf(a, b, c)
     val min = minOf(a, b, c)
     println("Max: $max")
     println("Min: $min")
 }
+
+// 8. Write a Kotlin program to find the factorial of a given number
+fun exercise8(number: Int): Int {
+    if (number == 0 || number == 1)
+        return 1
+    return number * exercise8(number - 1)
+}
+// 9. Write a Kotlin program to check if a given year is a leap year
+
+val exercise9: (Int) -> Boolean = {year -> (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) }

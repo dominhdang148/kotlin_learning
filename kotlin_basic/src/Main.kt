@@ -1,3 +1,3 @@
 fun main() {
-    exercise7(1,1,1)
+    println(exercise9(1900))
 }

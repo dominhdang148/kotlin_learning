@@ -32,10 +32,19 @@ fun exercise5(x: Int, y: Int) {
     println(if (y != 0) "$x / $y = ${x / y}" else "Cannot divide by zero")
 }
 
-// 6. Write a program to check if a given number is even or odd (lambda function)
-val exercise6: (Int)-> Boolean = {(it and 1) == 0}
+// 6. Write a Kotlin program to check if a given number is even or odd (lambda function)
+val exercise6: (Int) -> Boolean = { (it and 1) == 0 }
+
 // Similar with:
-fun exercise6(number: Int):Boolean{
-    return (number and 1)==0
+fun exercise6(number: Int): Boolean {
+    return (number and 1) == 0
 }
 
+// 7. Write a Kotlin program to find the maximum and minimum of three number
+
+fun exercise7(a: Int, b: Int, c: Int) {
+    val max = maxOf(a, b, c)
+    val min = minOf(a, b, c)
+    println("Max: $max")
+    println("Min: $min")
+}

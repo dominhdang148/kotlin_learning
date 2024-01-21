@@ -1,6 +1,6 @@
+package basic
+
 import java.time.LocalDateTime
-import java.util.Date
-import java.util.Scanner
 
 // 1. Write a Kotlin program to print "Hello" on screen and your name on a separate line
 fun exercise1() {
@@ -54,5 +54,6 @@ fun exercise8(number: Int): Int {
         return 1
     return number * exercise8(number - 1)
 }
+
 // 9. Write a Kotlin program to check if a given year is a leap year
 val exercise9: (Int) -> Boolean = {year -> (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) }

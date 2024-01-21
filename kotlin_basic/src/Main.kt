@@ -1,3 +1,5 @@
+import basic.*
+
 fun main() {
     println(exercise9(1900))
 }

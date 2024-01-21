@@ -1,5 +1,5 @@
 import basic.*
 
 fun main() {
-    println(exercise9(1900))
+    exercise10(12.5)
 }

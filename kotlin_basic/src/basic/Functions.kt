@@ -57,3 +57,9 @@ fun exercise8(number: Int): Int {
 
 // 9. Write a Kotlin program to check if a given year is a leap year
 val exercise9: (Int) -> Boolean = {year -> (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) }
+
+// 10. Write a Kotlin program to calculate the area and perimeter of a circle.
+ fun exercise10(radius: Double){
+     println("Perimeter: ${2*Math.PI*radius}")
+     println("Area: ${Math.PI*Math.pow(radius,2.0)}")
+ }
